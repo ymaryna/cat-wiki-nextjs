@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://wikicat.marinacid.es/">
+    <a href="https://catwiki.marinacid.es/">
       Demo
     </a>
     <span> | </span>
