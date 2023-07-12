@@ -1,0 +1,45 @@
+.top-ten .top img {
+    object-fit: cover;
+    aspect-ratio: 1;
+    border-radius: 25px;
+}
+
+.top-ten .top {
+    margin-bottom: 2rem;
+} 
+
+.top-ten h1 {
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.top-ten h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.top-ten p {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 1.4rem;
+}
+
+.top-ten a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-ten a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .top-ten .text {
+        margin-top: 2rem;
+    }
+}

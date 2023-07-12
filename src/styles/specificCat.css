@@ -1,0 +1,66 @@
+.specific-cat .img-header img {
+    border-radius: 43px;
+    box-shadow: -34px 0px 0px -20px rgb(222 198 139);
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+.specific-cat h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 1.8rem;
+}
+
+.specific-cat p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 2rem;
+}
+
+.specific-cat .specifications {
+    max-width: 570px;
+}
+
+.dot {
+    width: 60px;
+    height: 12px;
+    background: #E0E0E0;
+    border-radius: 8px;
+    margin: 0 0.5rem;
+}
+
+.dot.yes {
+    background: #544439;
+}
+
+.specific-cat .text-dots p {
+    margin: 0;
+}
+
+.text-dots {
+    margin-bottom: 2rem;
+}
+
+.specific-cat h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.gallery {
+    margin-bottom: 8rem;
+}
+
+.gallery img {
+    object-fit: cover;
+    aspect-ratio: 1;
+    border-radius: 35px;
+}
+
+@media (max-width: 425px) {
+    .dot {
+        width: 40px;
+    }
+}

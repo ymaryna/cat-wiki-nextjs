@@ -1,0 +1,28 @@
+footer.footer {
+    background-color: #000000;
+    border-radius: 42px 42px 0 0;
+    padding: 37px 100px 37px;
+}
+
+footer img {
+    filter: brightness(0) invert(1);
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    footer.footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 580px) {
+    footer p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
